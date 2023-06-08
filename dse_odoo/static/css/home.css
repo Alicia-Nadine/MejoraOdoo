@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    background-color: #F3F3F3;
+    margin: 0;
+    font-size: 62.5%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ENCABEZADO */
+
+header {
+    background-color: #AF7DA1;
+    padding: 10px;
+    height: calc(2rem +28px)
+}
+
+header h2 {
+    font-size: 2rem;
+    display: inline;
+    color: aliceblue;
+}
+
+.logo {
+    width: 4rem;
+    height:2rem;
+    margin-right: 10px;
+}
+
+h1 {
+    text-transform: capitalize;
+    font-size: 2.25rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #AF7DA1;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+    height: calc(100vh - 2rem - 32px);
+    width: 100%;
+    align-items: center;
+}
+
+.content{
+    display: block;
+    background-color: white;
+    width: 50%;
+    min-width: 512px;
+    max-width: 700px;
+    margin: 0 auto 0 auto ;
+    padding: 30px 50px;
+    max-height: 90%;
+}
+
+/* CUSTOM */
+
+.input-section {
+    display: flex;
+    width: 80%;
+    max-width: 400px;
+    margin: 30px auto;
+}
+
+.input-section label {
+    display: inline-block;
+    background-color: #dedede;
+    padding: 5px;
+    width: 30%;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.input-section select {
+    width: 70%;
+    background-color: #F3F3F3;
+    padding: 0 5px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+
+form { 
+    padding-top: 10px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+
+form button {
+    color: #ECECEC;
+    width: 40%;
+    padding: 10px 0;
+    display: block;
+    background-color: #AF7DA1;
+    margin: 5rem auto 0 auto;
+    outline: none;
+    border-radius: 5px;
+}
